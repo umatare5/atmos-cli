@@ -64,7 +64,7 @@ GLOBAL OPTIONS:
   atmos divelog --pretty --cursor $END_CURSOR_NAME
   ```
 
-## Advanced
+### Advanced
 
 - `atmos divelog --divelog-id` shows the detail of a divelog.
 
