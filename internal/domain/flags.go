@@ -17,7 +17,7 @@ var (
 
 // Global: Value Flags
 const (
-	ServerFlagValue string = "https://localhost/"
+	ServerFlagValue string = "http://localhost/api/v0"
 )
 
 // Name Flags
