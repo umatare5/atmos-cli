@@ -29,12 +29,15 @@ builds:
     env:
       - CGO_ENABLED=0
     asmflags:
-      - all=-trimpath={{.Env.GOPATH}}
+      - all=-trimpath=.
     gcflags:
-      - all=-trimpath={{.Env.GOPATH}}
+      - all=-trimpath=.
 
 archives:
   - name_template: '{{ .ProjectName }}-v{{ .Version }}_{{ .Os }}_{{ .Arch }}{{ if .Arm }}v{{ .Arm }}{{ end }}'
+    format_overrides:
+      - goos: windows
+        format: zip
 
 release:
   prerelease: auto
