@@ -15,7 +15,7 @@ USAGE:
    atmos COMMAND [options...]
 
 VERSION:
-   0.1.0
+   0.1.1
 
 COMMANDS:
    profile, p, pr, pro, prof  Fetch my profile.
@@ -23,7 +23,7 @@ COMMANDS:
    help, h                    Shows a list of commands or help for one command
 
 GLOBAL OPTIONS:
-   --server value, -s value  URI to ATMOS API (default: "http://localhost/api/v0") [$ATMOS_API]
+   --server value, -s value  Set FQDN for ATMOS Platform (default: "http://localhost:8080") [$ATMOS_API]
    --help, -h                show help (default: false)
    --version, -v             print the version (default: false)
 ```

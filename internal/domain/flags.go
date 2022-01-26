@@ -7,7 +7,7 @@ const (
 
 // Global: Usage Flags
 const (
-	ServerFlagUsage string = "URI to ATMOS API"
+	ServerFlagUsage string = "Set FQDN for ATMOS Platform"
 )
 
 // Global: Alias Flags
@@ -17,7 +17,7 @@ var (
 
 // Global: Value Flags
 const (
-	ServerFlagValue string = "http://localhost/api/v0"
+	ServerFlagValue string = "http://localhost:8080"
 )
 
 // Name Flags
