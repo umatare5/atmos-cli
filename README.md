@@ -1,5 +1,10 @@
 # atmos-cli
 
+![GitHub Tag](https://img.shields.io/github/v/tag/umatare5/atmos-cli?label=Latest%20version)
+[![Go Reference](https://pkg.go.dev/badge/umatare5/atmos-cli.svg)](https://pkg.go.dev/github.com/umatare5/atmos-cli)
+[![Go Report Card](https://goreportcard.com/badge/github.com/umatare5/atmos-cli?style=flat-square)](https://goreportcard.com/report/github.com/umatare5/atmos-cli)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/umatare5/atmos-cli/blob/main/LICENSE)
+
 atmos-cli is a CLI to fetch divelogs from ATMOS Platform.
 
 ![](https://github.com/umatare5/atmos-cli/blob/images/promo.gif)
